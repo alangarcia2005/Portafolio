@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+  min-height: 70vh;
+  padding: 60px 40px;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 350px;
+  height: 450px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  border: 2px solid #334155;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-content {
+  flex: 1.5;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #d1d5db;
+}

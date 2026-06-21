@@ -1,0 +1,58 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content {
+  margin-left: 280px; /* mismo ancho que el sidebar */
+  width: calc(100% - 280px);
+  padding: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  margin-left: 300px;
+  padding: 30px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  padding: 12px 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+a {
+  text-decoration: none;
+}
