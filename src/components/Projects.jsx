@@ -4,6 +4,8 @@ import directorio from "../assets/projects/Proyecto.png";
 import menú from "../assets/projects/Proyecto_3.png";
 import targeta from "../assets/projects/Proyecto_1.png";
 import aplicacion from "../assets/projects/Proyecto_2.png";
+import portafolio from "../assets/projects/Proyecto_4.png";
+import Calculadora from "../assets/projects/Proyecto_5.png"; 
 
 function Projects() {
   const projects = [
@@ -37,6 +39,22 @@ function Projects() {
       description:
         "Aplicación para la gestión de un vivero sobre su inventario, ventas, reportes y consultas para administradores y un mejor manejo del negocio.",
       technologies: ["JavaScript", "React", "GitHub"],
+      demo: "#",
+    },
+    {
+      title: "Portafolio profesional",
+      image: portafolio,
+      description:
+        "Desarrollo de un portafolio profesional para mostrar habilidades, proyectos y experiencia laboral.",
+      technologies: ["JavaScript", "React", "GitHub", "Vite"],
+      demo: "#",
+    },
+    {
+      title: "Calculadora de IMC",
+      image: Calculadora,
+      description:
+        "Desarrollo de una calculadora de Índice de Masa Corporal (IMC) para ayudar a las personas a evaluar su salud y bienestar.",
+      technologies: ["JavaScript", "React", "Vite"],
       demo: "#",
     },
   ];
